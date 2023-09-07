@@ -6,15 +6,24 @@
   background-color: #70a395;
 }
 
-#projects {
+#projects,
+#contact {
   background-color: #70a395;
 }
 
 #about,
-#contact {
+#gallery {
   background-color: #c19c59;
 }
 
 section {
   padding-top: 5rem;
+}
+
+.gallery-img {
+  width: 100%;
+}
+
+#gallery .row > * {
+  padding: 0;
 }
